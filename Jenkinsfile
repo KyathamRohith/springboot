@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKER_IMAGE = 'rohith1305/java-application:${BUILD_NUMBER}' // Unique versioned image
-        DOCKER_CREDENTIALS = '7c910bc4-e2e4-48a4-857c-51be93277e96' // Jenkins Docker Hub Credentials ID
+        DOCKER_CREDENTIALS = '7c910bc4-e2e4-48a4-857c-51be93277e96' // Jenkins Docker Hub Credentials I
     }
 
     stages {

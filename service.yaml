@@ -9,4 +9,4 @@ spec:
     - protocol: TCP
       port: 80  # External port
       targetPort: 8080  # Port inside the container
-  type: LoadBalancer  # Use NodePort if running locally
+  type: LoadBalancer  # Use NodePort if running 

@@ -16,4 +16,4 @@ spec:
         - name: spring-boot-container
           image: rohith1305/my-spring-boot-app:latest  # Replace with your Docker Hub image
           ports:
-            - containerPort: 8080
+           - containerPort: 8080
