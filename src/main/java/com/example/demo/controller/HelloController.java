@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @GetMapping
     public String home() {
-        return "Hello, Spring Boot is running in Docker!";
+        return "Hello, Spring Boot applicaiton is running";
     }
 }
